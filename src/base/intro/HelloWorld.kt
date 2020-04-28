@@ -1,3 +1,5 @@
+package base.intro
+
 /**
  *
  * @author Richard_yyf
@@ -18,7 +20,7 @@ fun incr() {
 
 fun main() {
     println("Hello world")
-    println("x = $x ; PI = $PI")
+    println("base.intro.getX = $x ; base.intro.getPI = $PI")
     incr()
-    println("x = $x ; PI = $PI")
+    println("base.intro.getX = $x ; base.intro.getPI = $PI")
 }
